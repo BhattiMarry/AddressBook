@@ -1,9 +1,9 @@
-# API Methods' detail.
+ API Methods' detail.
 --------------------
 
 ## This document provides description of each method/function in the API. Here is the list of methods with their description.
 
-* add_group(GroupName)
+** add_group(GroupName) **
 Description:  Adds a group to group list of address book.
 
 Params:       GroupName as str
