@@ -12,7 +12,7 @@ At the command line::
 
 Use `sudo` before the last command or run the command by a sudo user.
 
-For a quick check of the API installation, run:
+For a quick check of the API installation, run::
 
     $ python
     
