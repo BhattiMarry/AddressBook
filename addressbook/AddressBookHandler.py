@@ -1,3 +1,16 @@
+# -*- coding: utf-8 -*-
+
+'''
+
+AddressBookHandler class.
+
+This module provides the implementation of Address Book using AddressBook objects.
+
+:copyright: (c) 2016 Umair Bhatti
+:licence: Apache2, see LICENCE file for more details.
+
+'''
+
 from AddressBook import AddressBook
 
 class AddressBookHandler():

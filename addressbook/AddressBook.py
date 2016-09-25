@@ -1,3 +1,14 @@
+# -*- coding: utf-8 -*-
+'''
+
+AddressBook class.
+
+This module provides the Address Book object containing very primary information of a person.
+
+:copyright: (c) 2016 Umair Bhatti
+:licence: Apache2, see LICENCE file for more details.
+
+'''
 class AddressBook(object):
 
     def __init__(self, FirstName, LastName, StreetAddress, Email, Phone, Group):
