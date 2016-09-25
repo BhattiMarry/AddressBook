@@ -33,22 +33,28 @@ class AddressBookHandler():
         AddressBookHandler.addressBook.append(obj)
 
     def count_persons(self):
-        return len(AddressBookHandler.addressBook)
+        len1 = len(AddressBookHandler.addressBook)
+        print len1
+        return len1
 
     def get_address_book(self):
         return AddressBookHandler.addressBook
 
     def clear_address_book(self):
+        print 'Clearing address book entries...'
         AddressBookHandler.addressBook = []
 
     def clear_address_book_groups(self):
+        print 'Clearing address book groups...'
         AddressBookHandler.groups = []
 
     def print_short_info(self, AddressBook):
         print "First Name: %s, Last Name: %s, Group: %s" %(AddressBook.fname, AddressBook.lname, AddressBook.group)
 
     def get_all_groups(self):
-        return AddressBookHandler.groups
+    	all_groups = AddressBookHandler.groups
+    	print all_groups
+        return all_groups
 
     def get_persons_in_group(self, GroupName):
         members = []
