@@ -17,6 +17,6 @@ Simple addressbook api for python.
 Features
 --------
 
-* Add people's group
-* Add persons' info
+* Add people's group to the address book
+* Add persons to the address book
 * Search and dump persons' info
